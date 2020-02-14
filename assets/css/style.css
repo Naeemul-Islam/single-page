@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    max-width: 100%;
+    margin: 0 auto; overflow: hidden;
+}
+/* menu start*/
+.logo {
+	width: 85px;
+	height: 70px;
+	float: left;
+	padding: 0px 0px 0px 18px;
+}
+.menu{
+    background-image: linear-gradient(to right, #1068ec, #5b61f3, #8955f6, #b241f3, #d812eb);
+    height: 70px;
+}
+.menu ul{
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    position: relative;
+    text-align: center;
+    width: 150px;
+    height: 80px;
+    float: left;
+    line-height: 70px;
+}
+.menu ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 25px 0;
+    position: relative;
+}
+.menu ul li a::before{
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 2px;
+    bottom: 15px;
+}
+.menu ul li a:hover::before{
+    width: 100%;
+}
+/* menu end */
+/* home start */
+.home-area{
+    background-image: url(../../assets/images/naeem.png);
+    background-size: 100% 100%;
+}
+.dark{
+    background: rgba(0, 0, 0, .5);
+    height: 500px;
+}
+.home-content {
+    text-align: center;
+    padding-top: 111px;
+    text-transform: uppercase;
+}
+.home-text {
+	margin: 20px;
+}
+.home-text h2{
+    font-size: 40px;
+    color: #fff;
+    padding-top: 10px;
+}
+.home-text h1{
+    font-size: 60px;
+    color: #fff;
+    padding-top: 15px;
+} 
+.home-text h1 span{
+    color: #ff5321;
+}
+.home-btn{
+    padding-top: 40px;
+}
+.home-btn a:first-child{
+    background: #979696;
+    margin-right: 15px;
+}
+.home-btn a:first-child:hover{
+    background: #ff5321;
+}
+.home-btn a {
+	color: #fff;
+	background: #ff5321;
+	padding: 15px 20px;
+	font-size: 18px;
+	text-decoration: none;
+}
+/* home end  */
+/* about start */
+.about {
+	text-align: center;
+    padding-top: 60px;
+    color: #979696;
+}
+.about h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.about p{
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.all{
+    text-align: center;
+}
+.about-top {
+	width: 33.333%;
+	float: left;
+	margin-top: 40px;
+}
+.about-top i{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:#35cece;
+    }
+.about-top h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #979696;
+}
+.about-top p{
+    font-size: 20px;
+    padding: 5px;
+}
+.about-top:hover i,
+.about-top:hover h2{
+    color: #ff5321;
+}
+/* about end */
+/* srrvice start */ 
+.service h2 {
+	text-align: center;
+	color: #979696;
+	text-transform: uppercase;
+	font-size: 35px;
+	margin: 35px;
+}
+.service-img {
+	width: 49%;
+	float: left;
+	height: 380px;
+    margin-top: 16px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.services-text{
+    float: right;
+    width: 49%;
+}
+.single {
+	margin: 20px 12px;
+}
+.single h3{
+    font-size: 30px;
+    color: #222;
+    position: relative;
+}
+.single h3::before {
+	content: "";
+	position: absolute;
+	background: #ff5321;
+	width: 3px;
+	height: 100px;
+	left: -15px;
+}
+.single h3 span{
+    color: #ff5321;
+}
+.single p{
+    font-size: 18px;
+    color: #222;
+    line-height: 25px;
+}
+/* srrvice end */
+/* office start */
+.office h2 {
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #979696;
+	padding: 36px;
+	text-align: center;
+}
+.office-text{
+    float: left;
+    width: 49%;
+    padding-top: 50px;
+}
+.office-text h3 {
+	font-size: 25px;
+	color: #000;
+	padding-bottom: 46px;
+	text-align: center;
+}
+.office-text p {
+	font-size: 25px;
+	color: #000;
+	line-height: 25px;
+	text-align: center;
+	padding: 23px;
+}
+.office-img{
+    float: right;
+    width: 49%;
+}
+/* office end */
+/* contact-start */
+.contact {
+	padding: 35px;
+}
+.contact h2{
+    font-size: 45px;
+    color: #979696;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 25px;
+}
+.contact-form{
+    width: 38%;
+    float: left;
+}
+.contact-form input {
+	width: 100%;
+	border: 0;
+	border: 2px solid #000;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+.message{
+    height: 100px;
+}
+.contact-form button {
+	background: #555;
+	color: #fff;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	width: 85px;
+	height: 30px;
+}
+.contact-form button:hover{
+    background-color: #ff5321;
+}
+.contact-map{
+    width: 58%;
+    float: right;
+}
+/* contact-end */
+/* footer-start */
+.footer-area {
+	background: #979696;
+	padding: 40px 30px;
+	margin-top: 20px;
+}
+.footer-text p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.footer-icon{
+    text-align: center;
+}
+.footer-icon ul li{
+    display:inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.footer-icon ul li a{
+    color: #fff;
+    font-size: 22px;
+    display: block;
+    padding-top: 10px;
+}
+.footer-icon ul li a:hover{
+    color: #ff5321;
+}
+/* footer-end */
+
+
+
